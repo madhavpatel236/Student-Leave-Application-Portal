@@ -78,7 +78,7 @@ a {
     width: 100vw;
     background-color: #6666D8;
     color: white;
-    font-family: "Roboto Mono", monospace;
+    /* font-family: "Roboto Mono", monospace; */
     font-size: 30px;
     display: flex;
     flex-direction: column;
@@ -104,8 +104,9 @@ a {
 }
 
 .tagline-containor .tagline {
+    /* font-family: "Roboto Mono", monospace; */
     text-decoration: none;
-    font-size: 5px;
+    font-size: 17px;
     padding-left: 90px;
     padding-right: 15px;
     font-weight: 100;
@@ -113,7 +114,7 @@ a {
     padding-top: 20px;
     text-align: justify;
     text-justify: inter-word;
-    color: rgb(205, 205, 205);
+    color: rgb(201, 201, 201);
 }
 
 .explore-btn-containor {
