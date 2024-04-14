@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leave Form</title>
+    <script src="https://web3forms.com/client/script.js" async defer></script>
+    <link rel="stylesheet" href="./ApplicationForm.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    
+<div class="wrapper">
+    <h2>Application Form</h2>
+    <form class="form" action="https://api.web3forms.com/submit" method="POST">
+        <input type="hidden" name="apikey" value="c4f5f7e6-79e9-4460-889f-f637b9172f22">
+        <div class="input-box">
+            <input name="email" type="email" id="email" placeholder="Enter your email">
+        </div>
+        <div class="input-box">
+            <input name="name"  type="text" id="name" placeholder="Enter your Name">
+        </div>
+        <div class="input-box">
+            <input name="subject" type="text" id="sub" placeholder="Subject">
+        </div>
+        <div class=" date">
+            <input type="date" name="from" id="fromDate" placeholder="From">
+            <input type="date" name="to" id="toDate" placeholder="To">
+        </div>
+        <div class=" reason">
+            <textarea  name="reason" id="textarea" cols="66" rows="5" placeholder="Write Here....."></textarea>
+        </div>
+        <div class="sub">
+            <input type="submit" value="SUBMIT"  id="submitForm" placeholder="Submit">
+        </div>
+    </form>
+</div>
+</body>
+
+</html>
+
+

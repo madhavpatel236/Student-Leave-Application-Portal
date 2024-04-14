@@ -1,0 +1,299 @@
+/*     font-family: "Roboto Mono", monospace; */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/* --------- Header -------------- */
+
+.header-containor {
+    height: 60px;
+    background-color: #6666D8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Roboto Mono", monospace;
+    font-weight: 700;
+    font-size: 19px;
+}
+
+.logo {
+    width: 70px;
+    height: 50px;
+    padding-left: 30px;
+}
+
+.header-content {
+    color: rgb(255, 253, 253);
+    padding-right: 30px;
+    cursor: pointer;
+}
+
+.header-content-containor {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+
+}
+
+.login-btn {
+    color: white;
+    margin-right: 40px;
+    width: 80px;
+    padding: 6px 12px;
+    background-color: rgb(14, 2, 58);
+    border: 2px;
+    border-radius: 27px;
+    cursor: pointer;
+    -webkit-border-radius: 27px;
+    -moz-border-radius: 27px;
+    -ms-border-radius: 27px;
+    -o-border-radius: 27px;
+}
+
+.header-btn-containor {
+    display: flex;
+    text-align: center;
+}
+
+
+/* ---------- index-page-1 ------------ */
+
+.Homepage {
+    display: flex;
+    width: 100vw;
+    height: 80vh;
+
+}
+
+.home-title {
+    height: 66.7vh;
+    width: 100vw;
+    background-color: #6666D8;
+    color: white;
+    font-family: "Roboto Mono", monospace;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 150px;
+
+}
+
+.home-title p {
+    font-family: "Roboto Mono", monospace;
+    font-weight: 700;
+    font-size: 60px;
+    text-shadow: 5px 2px #1d005d, 2px 4px #1d005d;
+
+}
+
+.home-title1 {
+    padding-left: 90px;
+    /* padding-top: 1px; */
+}
+
+.home-title2 {
+    padding-left: 290px;
+}
+
+.tagline-containor .tagline {
+    text-decoration: none;
+    font-size: 5px;
+    padding-left: 90px;
+    padding-right: 15px;
+    font-weight: 100;
+    font: 100 normal 'tahoma';
+    padding-top: 20px;
+    text-align: justify;
+    text-justify: inter-word;
+    color: rgb(205, 205, 205);
+}
+
+.explore-btn-containor {
+    font-size: 20px;
+    font: 100 normal 'tahoma';
+    margin-left: 80px;
+    margin-top: 30px;
+    width: 60px;
+    padding: 15px 40px;
+    background-color: rgb(14, 2, 58);
+    border: 2px;
+    border-radius: 27px;
+    cursor: pointer;
+    -webkit-border-radius: 27px;
+    -moz-border-radius: 27px;
+    -ms-border-radius: 27px;
+    -o-border-radius: 27px;
+}
+
+.home-img {
+    height: 90vh;
+    width: 500px;
+    background-color: #6666D8;
+
+}
+
+.home-img .img1 {
+    height: 90vh;
+    width: 97vh;
+    /* margin-right: 40px; */
+}
+
+
+
+
+/* -------------- HomePage2 --------------  */
+
+
+.digital-marketing-service{
+    display: flex;
+}
+.img-fluid1{
+    width: 40vw;
+}
+.img-fluid2{
+    width: 40vw;
+    padding-top: 10px;
+}
+.align-items-center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.first-content,
+.second-content,
+.third-content
+{
+    display: flex;
+    text-align: start;
+    margin-left: 120px;
+    width: 550px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+}
+.first-content{
+    margin-top: 40px;
+    font-size: 37px;
+    /* padding-bottom: 10px; */
+    /* margin-top: 170px; */
+}
+.main-containor-1  h3{
+    padding-bottom: 40px;
+}
+.second-content{
+    font-size: 18px;
+    padding-bottom: 70px;
+    color: rgb(53, 53, 53);
+}
+.third-content{
+    font-size: 18px;
+    color: rgb(53, 53, 53);
+}
+
+.main-content-2 {
+    width: 530px;
+    margin-right: 70px;
+    margin-top: 40px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.forth-content{
+    display: flex;
+    text-align: start;
+    font-size: 27px;
+    padding-bottom: 10px;
+}
+.fifth-content{
+    font-size: 18px;
+    padding-bottom: 20px;
+    color: rgb(53, 53, 53);
+
+}
+.sixth-content{
+    font-size: 18px;
+    padding-bottom: 20px;
+    color: rgb(53, 53, 53);
+
+}
+
+/* ------------------ Footer ---------------------------- */
+
+
+footer {
+    background-color: black;
+    height: 40vh;
+    color: white;
+}
+
+.foot {
+    display: flex;
+
+}
+
+.f1{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-evenly;
+    /* margin-left: 250px; */
+    height: 150px;
+    padding-top: 10px;
+}
+
+.foot-img{
+    /* margin-right: 200px; */
+    padding-right: 250px;
+}
+
+.foot1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.foot2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.foot3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-left: 20px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.rights p {
+    font-size: 20px;
+    color: red;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer-img{
+    width: 180px;
+    height: 160px;
+}
+
+
+
+
+
+
+
+
